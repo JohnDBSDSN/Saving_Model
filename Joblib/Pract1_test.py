@@ -9,4 +9,5 @@ model = joblib.load('diabetic1.pkl')
 result = model.predict([[1,2,3,4,5,6,7,8]]) [0]
 
 print('Result is:', result) # Result is: 1.0 (1.0 ppl has diabetic)
+print('Success')
 
